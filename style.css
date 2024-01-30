@@ -1,0 +1,84 @@
+/*Boton stiles*/
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Regla Media Query*/
+
+/* Estilos para pantallas pequeñas (celulares) */
+@media screen and (max-width: 767px) {
+    /* Agrega estilos para pantallas pequeñas aquí */
+}
+
+/* Estilos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Agrega estilos para tabletas aquí */
+}
+
+/* Estilos para laptops y pantallas más grandes */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    /* Agrega estilos para laptops aquí */
+}
+
+/* Estilos para pantallas más grandes, como televisores */
+@media screen and (min-width: 1366px) {
+    /* Agrega estilos para pantallas grandes aquí */
+}
+
+.textP{
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+.textt{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  /* Centrar horizontalmente */
+    text-align: center;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+}
+
+.typer {
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 10px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+

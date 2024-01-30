@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./script.js"></script>
+    <title>Minimalist List</title>
+    <link rel="icon" href="./imgs/Minimalist list.jpeg" type="MinimalistIcon">
+    <!--Linkeados de Files-->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 class="textt">Minimalist List</h1>
+    <h3 class="textt">Bienvenido a tu lista minimalista! Sientase libre de anotar cualquier cosa! Que lo disfrutes!</h3>
     
+    <div class="container">
+        <label for="productInput" class="textP">Artículo:</label>
+        <input type="text" id="productInput" placeholder="Anote aquí" class="typer">
+        <button id="addButton" class="btn">Agregar a la lista</button>
+        <button id="clearButton" class="btn">Borrar lista</button>
+    </div>
+    
+    
+    <ul id="carritoLista" class="text"></ul>
+
 </body>
 </html>
+
