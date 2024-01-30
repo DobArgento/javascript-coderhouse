@@ -1,1 +1,1 @@
-# javascript-coderhouse.github.io
+# javascript-coderhouse
